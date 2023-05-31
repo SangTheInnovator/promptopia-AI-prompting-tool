@@ -8,11 +8,11 @@ const Home = () => {
             Discover & Share
             <br className='max-md:hidden'/>
             <span className='orange_gradient text-center'>
-                AI-Powered Prompts
+                Powered Prompts
             </span>
         </h1>
         <p className='desc text-center'>
-            Promtopia is an open-source AI prompting
+            Promtopia is an open-source prompting
             tool for modern world to discover, 
             and share creative prompts
         </p>

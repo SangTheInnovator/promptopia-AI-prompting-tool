@@ -1,6 +1,7 @@
 import Prompt from "@models/prompt";
 import { connectToDB } from "@utils/database";
 
+// GET (read)
 export const GET = async (request, { params }) => {
     try {
         await connectToDB()
@@ -14,3 +15,10 @@ export const GET = async (request, { params }) => {
         return new Response("Internal Server Error", { status: 500 });
     }
 }
+
+// PATCH (update)
+export const PATCH = async (request,{params} ) => {
+    
+}
+
+// DELETE (delete)
