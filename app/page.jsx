@@ -17,7 +17,7 @@ const Home = () => {
             and share creative prompts
         </p>
 
-        <Feed />
+        <Feed/>
     </section>
   )
 }
