@@ -77,4 +77,4 @@ const Form = ({type,post,setPost,submitting,
   )
 }
 
-export default Form;
+export default Form
