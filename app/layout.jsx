@@ -5,8 +5,8 @@ import Nav from '@components/Nav';
 import Provider from '@components/Provider';
 
 export const metadata = {
-    title: "Promptopia",
-    description: 'Disccover & Share AI Prompts'
+    title: "Promptopia- Creator: Sang Le",
+    description: 'Discover & Share Prompts'
 }
 
 const RootLayout = ({ children }) => {
@@ -28,4 +28,4 @@ const RootLayout = ({ children }) => {
   )
 }
 
-export default RootLayout
+export default RootLayout;
